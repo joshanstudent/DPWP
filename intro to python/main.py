@@ -6,6 +6,8 @@ Doc strings
 first_name = "Kermit"
 last_name = "De Frog"
 
+# Remember that "raw_input" has been replace within Python 3, but within this class
+#Use "raw_input" for the assignments
 response = raw_input("Enter your name")
 # use "print response" to print single statement
 # print response
