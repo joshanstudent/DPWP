@@ -132,9 +132,51 @@ age = current_year - birth_year
 # If you want to print associate Array within Python, this is called
 # Dictionary
 
-characters = ["leia", "luke", "chewy", "lando"]
-characters.append("obi won")
+#characters = ["leia", "luke", "chewy", "lando"]
+#characters.append("obi won")
+#
+#movies = dict() #create dictionary object
+#movies = {"Star Wars":"Darth Vader", "Silence of the Lambs":"Hannibal Lecter"}
+#print movies["Star Wars"]
 
-movies = dict() #create dictionary object
-movies = {"Star Wars":"Darth Vader", "Silence of the Lambs":"Hannibal Lecter"}
-print movies["Star Wars"]
+
+# Creating "While Loop"
+
+#i = 0
+#while i<9:
+#    print "The count is", i
+#    i = i+1
+
+
+# Creating "For Loop"
+
+#for i in range(0,10):
+#    print "The count is", i
+#    i = i+1
+
+
+# Creating "For Each Loop"
+
+#rappers = ["tupac", "Nas", "Biggie Smalls"]
+#for r in rappers:
+#    print r
+
+# Creating "Functions"
+
+#def calcArea(h, w):
+#    area = h * w
+#    return area
+#
+#a = calcArea(20, 40);
+#print a
+
+
+# Creating "Functions"
+
+def calcArea(h, w):
+    area = h * w
+    return area
+
+a = calcArea(20, 40);
+print "My area is " + str(a) + "sqft"
+
