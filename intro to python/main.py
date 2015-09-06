@@ -173,10 +173,55 @@ age = current_year - birth_year
 
 # Creating "Functions"
 
-def calcArea(h, w):
-    area = h * w
-    return area
+#def calcArea(h, w):
+#    area = h * w
+#    return area
+#
+#a = calcArea(20, 40);
+#print "My area is " + str(a) + "sqft"
 
-a = calcArea(20, 40);
-print "My area is " + str(a) + "sqft"
 
+# Creating "Functions" with varibles above the function, it will be global
+# to add more value to the math
+
+#x = 2
+#
+#def calcArea(h, w):
+#    area = h * w
+#    return area + x
+#
+#a = calcArea(20, 40);
+#print "My area is " + str(a) + "sqft"
+
+
+# How to put variables into a large string
+# the (**locals()) method is point to the variable which is declaring
+# the value within the {}
+
+#weight = 200
+#height = 63
+#message = '''
+#Your height is {height} and your weight is {weight}
+#'''
+#message = message.format(**locals())
+#print message
+
+
+# Can use this coding type to rewrite or replace codes within HTML for
+# setup templates ahead of time and named the content.
+
+title = "Contact Us"
+body = "You can contact us at contact@us.com"
+message = '''
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>{title}</title>
+    </head>
+    <body>
+        {body}
+    </body>
+</html>
+'''
+message = message.format(**locals())
+print message
