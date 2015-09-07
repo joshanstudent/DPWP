@@ -225,5 +225,7 @@ characters.append("obi won")
 #'''
 #message = message.format(**locals())
 #print message
-a = 2400
-print "Total for your bathroom reapirs is $",eval('a * .75'), "dollars"
+
+#Math
+#a = 2400
+#print "Total for your bathroom reapirs is $",eval('a * .75'), "dollars"
