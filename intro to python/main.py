@@ -111,8 +111,8 @@ age = current_year - birth_year
 
 # Creating Arrays
 
-characters = ["leia", "luke", "chewy", "lando"]
-print characters
+#characters = ["leia", "luke", "chewy", "lando"]
+#print characters
 
 
 # If you want to add to Arrays
@@ -132,9 +132,9 @@ print characters
 # If you want to print associate Array within Python, this is called
 # Dictionary
 
-#characters = ["leia", "luke", "chewy", "lando"]
-#characters.append("obi won")
-#
+characters = ["leia", "luke", "chewy", "lando"]
+characters.append("obi won")
+
 #movies = dict() #create dictionary object
 #movies = {"Star Wars":"Darth Vader", "Silence of the Lambs":"Hannibal Lecter"}
 #print movies["Star Wars"]
@@ -225,3 +225,5 @@ print characters
 #'''
 #message = message.format(**locals())
 #print message
+a = 2400
+print "Total for your bathroom reapirs is $",eval('a * .75'), "dollars"
