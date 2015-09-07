@@ -52,13 +52,5 @@ print "with an area space of " + str(a) + "sqft"
 
 
 
-# If you want to print associate Array within Python, this is called
-# Dictionary
 
-#characters = ["leia", "luke", "chewy", "lando"]
-#characters.append("obi won")
-#
-#movies = dict() #create dictionary object
-#movies = {"Star Wars":"Darth Vader", "Silence of the Lambs":"Hannibal Lecter"}
-#print movies["Star Wars"]
 
