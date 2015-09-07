@@ -111,8 +111,8 @@ age = current_year - birth_year
 
 # Creating Arrays
 
-#characters = ["leia", "luke", "chewy", "lando"]
-#print characters
+characters = ["leia", "luke", "chewy", "lando"]
+print characters
 
 
 # If you want to add to Arrays
@@ -210,18 +210,18 @@ age = current_year - birth_year
 # Can use this coding type to rewrite or replace codes within HTML for
 # setup templates ahead of time and named the content.
 
-title = "Contact Us"
-body = "You can contact us at contact@us.com"
-message = '''
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>{title}</title>
-    </head>
-    <body>
-        {body}
-    </body>
-</html>
-'''
-message = message.format(**locals())
-print message
+#title = "Contact Us"
+#body = "You can contact us at contact@us.com"
+#message = '''
+#<!DOCTYPE HTML>
+#<html>
+#    <head>
+#        <title>{title}</title>
+#    </head>
+#    <body>
+#        {body}
+#    </body>
+#</html>
+#'''
+#message = message.format(**locals())
+#print message
