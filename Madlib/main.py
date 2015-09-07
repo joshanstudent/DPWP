@@ -30,10 +30,38 @@ if guess != number:
 last = raw_input("Enter last name: ")
 city = raw_input("Enter your city: ")
 state = raw_input("Enter your state: ")
-address = raw_input("Enter your address")
-zip = raw_input("Enter your zip code")
-print "Hello ", first, last, "I see that you are looking for a new house in ", city, state,
+address = raw_input("Enter your address: ")
+zip = raw_input("Enter your zip code: ")
+bathroom = "floor", "tube", "wall"
+
+
+print "Hello ", first, last, "I see that you are looking for repairs within your house in ", city, state, "at ", address, zip,
+print bathroom
 
 
 
+def calcArea(h, w):
+    area = h * w
+    return area
+
+a = calcArea(20, 40);
+print "with an area space of " + str(a) + "sqft"
+
+
+# If you want to print only one within the Array
+
+#characters = ["leia", "luke", "chewy", "lando"]
+#characters.append("obi won")
+#print characters[0]
+
+
+# If you want to print associate Array within Python, this is called
+# Dictionary
+
+#characters = ["leia", "luke", "chewy", "lando"]
+#characters.append("obi won")
+#
+#movies = dict() #create dictionary object
+#movies = {"Star Wars":"Darth Vader", "Silence of the Lambs":"Hannibal Lecter"}
+#print movies["Star Wars"]
 
