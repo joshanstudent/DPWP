@@ -32,20 +32,20 @@ city = raw_input("Enter your city: ")
 state = raw_input("Enter your state: ")
 address = raw_input("Enter your address: ")
 zip = raw_input("Enter your zip code: ")
-bathroom = "floor", "tube", "wall"
+bathroom = 'floor', 'tube', 'wall'
+additional = raw_input("Please add another task to do within your bathroom: ")
 
 
-print "Hello ", first, last, "I see that you are looking for repairs within your house in ", city, state, "at ", address, zip,
+print "Hello ", first, last, "I see that you are looking for repairs within your house in", city, state, "at", address, zip, " additional task to fix within your bathroom is", additional,
 print bathroom
-
-
 
 def calcArea(h, w):
     area = h * w
     return area
 
-a = calcArea(20, 40);
+a = calcArea(40, 60);
 print "with an area space of " + str(a) + "sqft"
+
 
 
 # If you want to print only one within the Array
