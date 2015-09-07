@@ -49,11 +49,7 @@ print "with an area space of " + str(a) + "sqft"
 
 
 
-# If you want to print only one within the Array
 
-#characters = ["leia", "luke", "chewy", "lando"]
-#characters.append("obi won")
-#print characters[0]
 
 
 # If you want to print associate Array within Python, this is called
