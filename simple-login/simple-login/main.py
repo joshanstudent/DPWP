@@ -10,19 +10,20 @@ class MainHandler(webapp2.RequestHandler): #declaring a class
         <title>Simple Form</title>
     </head>
     <body>'''
-    page_body = '''<form method="GET" action="">
+
+        page_body = '''<form method="GET" action="">
             <label>Name: </label><input type="text" name="user" />
             <label>Email: </label><input type="text" name="email" />
             <input type="submit" value="Submit" />'''
 
-    page_close = '''
+        page_close = '''
         </form>
-    </body>
+    </body> 
 </html>'''
 
-        if self.request.GET: # the column mean the same as ==True, just another way to write this code
-            #print self.request.GET['user'] # This string is to print out to the console
-            #stores info we got from the form
+
+# the column mean the same as == True, just another way to write this code# the column mean the same as == True, just another way to write this code
+        if self.request.GET:
             user = self.request.GET['user'] # this is to print
             email = self.request.GET['email'] # this is to print
             self.response.write(page_head + user + ' ' + email + page_body + page_close)
