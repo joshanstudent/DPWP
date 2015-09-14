@@ -3,16 +3,19 @@ import webapp2 #use the webapp2 library
 
 class MainHandler(webapp2.RequestHandler): #declaring a class
     def get(self):# this function starts everything. Initializing, Catalyst.
-        page = '''<!DOCTYPE HTML>
+        page_head = '''<!DOCTYPE HTML>
 <html>
     <head>
         <title>Simple Form</title>
     </head>
-    <body>
-        <form method="GET">
+    <body>'''
+
+       page_body = '''<form method="GET">
             <label>Name:</label><input type="text" name="user" />
             <label>Email:</label><input type="text" name="email" />
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" />'''
+    
+       page_close = '''
         </form>
     </body>
 </html>
@@ -23,7 +26,8 @@ class MainHandler(webapp2.RequestHandler): #declaring a class
             #stroes info we got from the form
             user = self.request.GET['user'] # this is to print
             email = self.request.GET['email'] # this is to print
-        self.response.write(page) # This is printing out the information of the form
+
+        #self.response.write(page) # This is printing out the information of the form
 
 
     #also a (def additional_functions) will be used with next assignment, this is just a
