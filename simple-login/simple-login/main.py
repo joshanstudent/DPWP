@@ -17,7 +17,13 @@ class MainHandler(webapp2.RequestHandler): #declaring a class
     </body>
 </html>
         '''
-        self.response.write(page)
+        if self.request.GET: # the column mean the same as ==True, just another way to write this code
+            #print self.request.GET['user'] # This string is to print out to the console
+
+            #stroes info we got from the form
+            user = self.request.GET['user'] # this is to print
+            email = self.request.GET['email'] # this is to print
+        self.response.write(page) # This is printing out the information of the form
 
 
     #also a (def additional_functions) will be used with next assignment, this is just a
