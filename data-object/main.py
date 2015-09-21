@@ -24,7 +24,7 @@ class MainHandler(webapp2.RequestHandler):
 
 
         chars = [luke, leia, yoda]  #this an array
-        print chars[1].profession
+        print chars[2].profession
 
 
 class Character(object):

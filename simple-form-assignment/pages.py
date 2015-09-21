@@ -13,8 +13,10 @@ class Page(object):
     <body>
         """
 
-        self.body = "Welcome to my OOP Python page!"
+        self.body = "<h1>Welcome to Ciera's Hair Salon</h1>"
         self.close = """
+        <img src="../images/ciera-s-hair-salon.jpg" alt="Form">
+
     </body>
 </html>
         """
